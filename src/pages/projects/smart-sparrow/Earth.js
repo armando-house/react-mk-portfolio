@@ -70,9 +70,7 @@ const getPositionValues = section => {
   if (!section || !section.camera) return nullTarget;
 
   return {
-    x: section.camera[0],
-    y: section.camera[1],
-    z: section.camera[2],
+    
   };
 };
 
